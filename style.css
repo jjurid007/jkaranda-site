@@ -97,3 +97,6 @@ nav .links a[aria-current=page]{color:var(--ink)}
 .ph .photo{max-width:420px;justify-self:end}
 @media (max-width:820px){.hero .photo,.ph .photo{justify-self:center;max-width:360px}.ph{grid-template-columns:1fr;gap:20px}}
 .seaband{height:clamp(220px,38vw,440px);background:url(/img/sea.jpg) center 35%/cover no-repeat;margin-top:24px}
+.hero>*,.ph>*{min-width:0}
+.photo{width:100%}
+.photo img{max-width:100%}
